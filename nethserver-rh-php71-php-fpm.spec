@@ -1,5 +1,5 @@
 Name: nethserver-rh-php71-php-fpm
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 Summary: NethServer rh-php71-php-fpm configuration
 License: GPL
@@ -36,6 +36,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Dec 11 2019 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.1-1
+- Change PHP-FPM version in Web server app - NethServer/dev#5912
+
 * Tue Mar 20 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
 - Nextcloud: upgrade to v13 & optimizations - NethServer/dev#5427
 
