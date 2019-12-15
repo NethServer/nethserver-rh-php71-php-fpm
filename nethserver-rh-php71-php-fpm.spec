@@ -34,7 +34,7 @@ rm -rf %{buildroot}
 %files -f %{name}-%{version}-%{release}-filelist
 %defattr(-,root,root)
 %dir %{_nseventsdir}/%{name}-update
-
+%config(noreplace) %{_sysconfdir}/opt/rh/rh-php71/php.d/20-opcache.ini
 
 %changelog
 * Wed Dec 11 2019 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.1-1
