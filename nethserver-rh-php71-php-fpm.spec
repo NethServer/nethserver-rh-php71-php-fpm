@@ -13,6 +13,7 @@ Requires: rh-php71-php-bcmath, rh-php71-php-gd, sclo-php71-php-imap
 Requires: rh-php71-php-ldap, rh-php71-php-enchant, rh-php71-php-mbstring
 Requires: rh-php71-php-pdo, sclo-php71-php-tidy, rh-php71-php-mysqlnd
 Requires: rh-php71-php-soap, rh-php71-php-pgsql
+Requires: rh-php71-php-pecl-apcu, rh-php71-php-intl
 
 %description
 Basic support for PHP 7.1 using SCL
