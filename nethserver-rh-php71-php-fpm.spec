@@ -1,5 +1,5 @@
 Name: nethserver-rh-php71-php-fpm
-Version: 1.1.0
+Version: 1.1.1
 Release: 1%{?dist}
 Summary: NethServer rh-php71-php-fpm configuration
 License: GPL
@@ -38,6 +38,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Dec 18 2019 Davide Principi <davide.principi@nethesis.it> - 1.1.1-1
+- Rh-php7x: opcache dependency - NethServer/dev#5986
+
 * Tue Dec 17 2019 Davide Principi <davide.principi@nethesis.it> - 1.1.0-1
 - Rh-php7x: add Intl and apcu - NethServer/dev#5987
 - Rh-PHP7x: RunTime Directory Creation - NethServer/dev#5992
