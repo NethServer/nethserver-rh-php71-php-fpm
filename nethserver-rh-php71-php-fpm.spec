@@ -1,5 +1,5 @@
 Name: nethserver-rh-php71-php-fpm
-Version: 1.1.1
+Version: 1.1.2
 Release: 1%{?dist}
 Summary: NethServer rh-php71-php-fpm configuration
 License: GPL
@@ -38,6 +38,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Apr 03 2020 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.1.2-1
+- Remove dismissed dependencies: imap and tidy (#7) 
+
 * Wed Dec 18 2019 Davide Principi <davide.principi@nethesis.it> - 1.1.1-1
 - Rh-php7x: opcache dependency - NethServer/dev#5986
 
